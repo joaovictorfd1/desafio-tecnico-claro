@@ -1,0 +1,42 @@
+.headerText {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(56,79,124,255);
+}
+
+.cakes-imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 768px) { // md: telas maiores que 768px
+    width: 50%; // Cada item ocupa 50% da largura (2 em cima e 2 embaixo)
+  }
+
+  @media (max-width: 767px) { // sm: telas menores que 768px
+    width: 100%; // Cada item ocupa 100% da largura (um embaixo do outro)
+  }
+
+  img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .cake-input {
+    width: 20px;
+    margin-right: 10px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1px solid #C9A657;
+    border-radius: 5px;
+  }
+
+  .cake-input:focus {
+    border-color: #8B7E53;
+    outline: none;
+  }
+}

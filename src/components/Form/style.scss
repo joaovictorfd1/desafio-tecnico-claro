@@ -1,0 +1,49 @@
+.orderText {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(56,79,124,255);
+  text-align: left;
+  text-decoration: underline;
+}
+
+.buttonOrder {
+  background-color: rgba(56,79,124,255);
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  color: white;
+  border-radius: 50px;
+}
+
+label {
+  display: flex;
+  text-align: left;
+  font-weight: 500;
+  color: rgba(56,79,124,255);
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #C9A657;
+  border-radius: 5px;
+  background-color: #F0F8FF;
+  font-size: 16px;
+  color: #5B7A99;
+}
+
+input::placeholder {
+  color: #5B7A99;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #8B7E53;
+  outline: none;
+}
+
+sub {
+  color: rgba(215,214,200,255);
+}
