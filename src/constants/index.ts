@@ -1,5 +1,5 @@
 export const imagesCakes = [
-  { src: 'src/assets/cake1.jpg', value: '01' },   // Substitua pelos caminhos corretos
+  { src: 'src/assets/cake1.jpg', value: '01' },
   { src: 'src/assets/cake2.jpg', value: '02' },
   { src: 'src/assets/cake3.jpg', value: '03' },
   { src: 'src/assets/cake4.jpg', value: '04' }

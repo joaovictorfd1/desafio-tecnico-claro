@@ -6,8 +6,8 @@
 
   &:after {
     content: '*';
-    color: red; // Altere para a cor desejada
-    margin-left: 5px; // Espaçamento entre a label e o asterisco
+    color: red;
+    margin-left: 5px;
   }
 }
 
@@ -18,12 +18,12 @@
   align-items: center;
   justify-content: center;
 
-  @media (min-width: 768px) { // md: telas maiores que 768px
-    width: 50%; // Cada item ocupa 50% da largura (2 em cima e 2 embaixo)
+  @media (min-width: 768px) { 
+    width: 50%;
   }
 
-  @media (max-width: 767px) { // sm: telas menores que 768px
-    width: 100%; // Cada item ocupa 100% da largura (um embaixo do outro)
+  @media (max-width: 767px) {
+    width: 100%;
   }
 
   img {
@@ -50,7 +50,7 @@
 label {
   &:after {
     content: '*';
-    color: red; // Altere para a cor desejada
-    margin-left: 5px; // Espaçamento entre a label e o asterisco
+    color: red;
+    margin-left: 5px;
   }
 }

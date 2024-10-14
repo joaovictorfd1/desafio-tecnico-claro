@@ -1,7 +1,6 @@
 import React, { Dispatch, SetStateAction } from 'react';
 import './style.scss';
 
-// Tipagem para os props do componente ImageRadioButton
 interface ImageRadioButtonProps {
   value: string;
   imageSrc: string;
@@ -9,9 +8,7 @@ interface ImageRadioButtonProps {
   onChange: (value: string) => void;
 }
 
-// Componente de cada opção de imagem
 const ImageRadioButton: React.FC<ImageRadioButtonProps> = ({ value, imageSrc, isChecked, onChange }) => {
-  // Ajustar responsividade para mobile e desktop
   return (
     <div className="col-sm-12 col-md-6 cakes-imgs">
         <input
@@ -39,7 +36,6 @@ interface CakeSelectorProps {
   setSelectedCake: Dispatch<SetStateAction<string>>;
 }
 
-// Componente principal
 export const CakeSelector: React.FC<CakeSelectorProps> = ({ headerText, images, selectedCake, setSelectedCake }) => {
 
   const handleChange = (value: string) => {
