@@ -31,7 +31,7 @@ export const Form = ({
           <div className='row'>
             <div className='col-sm-12 col-md-6'>
               <div className="form-group">
-                <label htmlFor="name">Name *</label>
+                <label htmlFor="name">Name</label>
                 <input type="text" id="name" name='name' placeholder="First" required />
               </div>
             </div>
@@ -59,13 +59,13 @@ export const Form = ({
           <div className='row'>
             <div className='col-sm-12 col-md-6'>
               <div className="form-group">
-                <label htmlFor="phone">Phone *</label>
+                <label htmlFor="phone">Phone</label>
                 <input type="text" id="phone" name='phone' placeholder="(99) 99999-9999" required onChange={handlePhoneChange} value={phone} />
               </div>
             </div>
             <div className='col-sm-12 col-md-6'>
               <div className="form-group text-left">
-                <label htmlFor="email">Email *</label>
+                <label htmlFor="email">Email</label>
                 <input type="email" id="email" name='email' required />
               </div>
             </div>
@@ -74,7 +74,7 @@ export const Form = ({
             <div className='row'>
               <div className='col-md-12 col-sm-12'>
                 <div className="form-group">
-                  <label htmlFor="address">Address *</label>
+                  <label htmlFor="address">Address</label>
                   <input type="text" id="address" name='address' placeholder="Street Address" />
                 </div>
               </div>

@@ -3,11 +3,17 @@
   line-height: 1.2;
   text-align: left;
   color: rgba(56,79,124,255);
+
+  &:after {
+    content: '*';
+    color: red; // Altere para a cor desejada
+    margin-left: 5px; // Espaçamento entre a label e o asterisco
+  }
 }
 
 .cakes-imgs {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 8px;
   align-items: center;
   justify-content: center;
@@ -38,5 +44,13 @@
   .cake-input:focus {
     border-color: #8B7E53;
     outline: none;
+  }
+}
+
+label {
+  &:after {
+    content: '*';
+    color: red; // Altere para a cor desejada
+    margin-left: 5px; // Espaçamento entre a label e o asterisco
   }
 }

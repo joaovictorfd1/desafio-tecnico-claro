@@ -14,7 +14,6 @@ const ImageRadioButton: React.FC<ImageRadioButtonProps> = ({ value, imageSrc, is
   // Ajustar responsividade para mobile e desktop
   return (
     <div className="col-sm-12 col-md-6 cakes-imgs">
-      <label>
         <input
           id='cake'
           key={value}
@@ -29,7 +28,6 @@ const ImageRadioButton: React.FC<ImageRadioButtonProps> = ({ value, imageSrc, is
           src={imageSrc}
           alt={`Cake option ${value}`}
         />
-      </label>
     </div>
   );
 };

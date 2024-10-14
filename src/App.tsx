@@ -82,7 +82,7 @@ function App() {
   return (
     <div className='container d-flex flex-column gap-3'>
       <Header title='Cake Order Form' subtitle='Order your freshly baked cakes made using only the finest quality natural ingredients.' />
-      <CakeSelector headerText='Please choose your favorite cake from among the following: *' images={imagesCakes} selectedCake={selectedCake} setSelectedCake={setSelectedCake} />
+      <CakeSelector headerText='Please choose your favorite cake from among the following: ' images={imagesCakes} selectedCake={selectedCake} setSelectedCake={setSelectedCake} />
       <Form onSubmit={onSubmit} />
     </div>
   );
