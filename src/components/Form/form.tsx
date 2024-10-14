@@ -67,6 +67,7 @@ export const Form = ({
               <div className="form-group text-left">
                 <label htmlFor="email">Email</label>
                 <input type="email" id="email" name='email' required />
+                <h6>To receive the complete receipt</h6>
               </div>
             </div>
           </div>

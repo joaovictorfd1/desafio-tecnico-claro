@@ -44,6 +44,19 @@ input:focus {
   outline: none;
 }
 
-sub {
+h6 {
+  font-size: 12px;
+  font-weight: 500;
   color: rgba(215,214,200,255);
 }
+
+form {
+  label {
+    &:after {
+      content: '*';
+      color: red;
+      margin-left: 5px;
+    }
+  }
+}
+
